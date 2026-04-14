@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO SISR - Loan</title>
+    <meta name="description" content="Portfolio de Loan, étudiant BTS SIO SISR (Côtes-d'Armor). Compétences : Linux, Windows Server, Virtualisation (Proxmox), Cisco. Recherche alternance ou stage secteur Lannion, Guingamp, Saint-Brieuc.">
+    <meta name="keywords" content="Loan, BTS SIO, SISR, administration système, sécurité réseau, portfolio, Proxmox, OpenVPN, Administrateur Systèmes et Réseaux, Technicien Informatique, Administrateur Système Junior, Support Technique N2, Support Technique N3, Technicien Réseaux, Consultant Informatique, Alternance Informatique, Stage SISR, Cybersécurité, Maintenance Informatique, Exploitation SI, Gestionnaire de Parc, Expert Systèmes, Administrateur d'infrastructure, Technicien de maintenance, Windows Server 2016, Windows Server 2019, Windows Server 2022, Active Directory, AD DS, GPO, Group Policy Objects, DNS, DHCP, WSUS, WDS, FOG Project, Linux Administration, Debian, Ubuntu Server, Fedora, Kali Linux, Rocky Linux, Shell Bash, PowerShell Scripting, Scripting Python, SSH, RSYNC, Cron, OpenLDAP, SAMBA,
+Cisco IOS, Commutation, Switching, Routage, Routing, Routage Inter-VLAN, VLAN 802.1Q, Trunking, STP, Spanning Tree, VTP, OSPF, RIP, BGP, NAT, PAT, Modèle OSI, TCP/IP, IPv4, IPv6, Subnetting, VLSM, Wireshark, Tcpdump, Analyse de trames, Topologie Réseau, LAN, WAN, VPN, OpenVPN, IPsec, WireGuard, Firewalling, Filtrage, Hyperviseur Type 1, Hyperviseur Type 2, Proxmox VE, VMware ESXi, vSphere, Microsoft Hyper-V, VirtualBox, Docker, Docker Compose, Conteneurisation, Kubernetes, K3s, Stockage NAS, SAN, RAID 1, RAID 5, RAID 10, Cloud Computing, AWS, Microsoft Azure, Proxmox Cluster, Ceph, Pare-feu, Firewall, pfSense, Stormshield, Iptables, Netfilter, DMZ, Filtrage de contenu, Proxy, Squid, Reverse Proxy, Nginx, Apache, Certificat SSL/TLS, Let's Encrypt, Audit de sécurité, Nmap, Nessus, Supervision SI, Zabbix, Nagios, Centreon, Grafana, SNMP, GLPI, OCS Inventory, Sauvegarde, Backup, Veeam, Bacula, PRA, Plan de Reprise d'Activité, PCA, Plan de Continuité d'Activité,
+Lannion, Guingamp, Saint-Brieuc, Côtes-d'Armor, 22, Bretagne, Trégor, Alternance Informatique, Stage Informatique, Emploi Informatique, Jeune Diplômé Informatique, Étudiant BTS SIO, Portfolio Informatique, CV Informatique, Compétences Réseaux, Compétences Systèmes, Projets Informatiques, Certifications Informatiques">
+    <meta name="author" content="Loan">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="forms.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Loan <span class="highlight"></span></h1>
+            <p class="animated-text"> <span class="typing"></span></p>
+        
+            <div class="hero-buttons">
+                <a onclick="openModal('docs/CV.pdf')" class="btn btn-primary">Voir mon CV</a>
+                <a href="forms.html" class="btn btn-secondary">Me contacter</a>
+            </div>
+        
+            <a href="#profil" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="profil" class="section">
+        <h2>Profil</h2>
+        <div class="profil-content">
+            <img src="images/profil.jpg" alt="Ma photo" class="profil-img">
+            <div class="profil-text">
+                <h3>Qui suis-je ?</h3>
+                <p>
+                    Je suis étudiant en BTS SIO option SISR, passionné par les réseaux, les serveurs et la virtualisation. 
+                    J’aime explorer les systèmes, tester des configurations et comprendre ce qui se passe derrière les écrans. 
+                    Curieux et débrouillard, j’apprécie apprendre de nouvelles technologies tout en donnant vie à des projets concrets et utiles.
+                    Je suis à la recherche d'une alternance pour l'année 2026-2027, je souhaiterais rejoindre un IUT Réseau & Télécom ou une école d'ingénieur.
+                </p>
+                <button onclick="openModal('docs/CV.pdf')" class="btn" title="Visualiser le CV">
+                    <span>Mon CV</span>
+                    <i class="fas fa-eye" style="margin-left: 8px;"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="section">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Réseaux</h3>
+                <ul>
+                    <li>Configuration switch & router (Cisco IOS)</li>
+                    <li>Routage inter-VLAN </li>
+                    <li>VLAN, Trunk, Native VLAN</li>
+                    <li>ACLs (contrôle d’accès)</li>
+                    <li>IPv4 (adressage, subnetting)</li>
+                    <li>DHCP, DNS</li>
+                    <li>Analyse réseau (Wireshark)</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Administration Système</h3>
+                <ul>
+                    <li>Windows Server (AD, GPO, DHCP, DNS)</li>
+                    <li>Linux (Ubuntu, Debian, Fedora)</li>
+                    <li>Gestion services (systemd)</li>
+                    <li>Création & gestion de VM</li>
+                    <li>Installation, sauvegarde & maintenance système</li>
+                    <li>Déploiement d’images (FOG, PXE)</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cubes"></i>
+                <h3>Virtualisation</h3>
+                <ul>
+                    <li>Proxmox (VM, LXC, stockage)</li>
+                    <li>VMware Workstation / ESXi</li>
+                    <li>Hyper-v</li>
+                    <li>Snapshots & templates</li>
+                    <li>Monitoring basique des ressources</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersécurité</h3>
+                <ul>
+                    <li>Firewall (UFW, pfSense, OPNsense)</li>
+                    <li>Snort (IDS)</li>
+                    <li>Analyse & scan réseau (Nmap)</li>
+                    <li>Fail2ban / Hardening Linux</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>travailler en mode projet</h3>
+                <ul>
+                    <li>tableau kanban</li>
+                    <li>Gestion version Git / GitHub</li>
+                    <li>DokuWiki (documentation)</li>
+                    <li>Planification (Gantt)</li>
+                    <li>Veille technologique</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-headset"></i>
+                <h3>Services utilisateurs</h3>
+                <ul>
+                    <li>Ticketing (glpi, téléphone)</li>
+                    <li>VPN (WireGuard, OpenVPN)</li>
+                    <li>Support N1/N2</li>
+                    <li>Prise en main à distance (TeamViewer, AnyDesk, KnoxRemote)</li>
+                    <li>Gestion des comptes (Active Directory)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <div class="icon-box">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Début Cybersécurité</h3>
+                <p>Cisco Networking Academy (2025)</p>
+                <a onclick="openModal('docs/CertCiscoNetAcad.png')" class="btn">Voir le certificat</a>
+            </div>
+            <div class="certification-card">
+                <div class="icon-box">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Mooc RGPD</h3>
+                <p>ANSSI & CNIL (2024)</p>
+                <a href="docs/certifRGPD/" class="btn">Voir les certificats</a>
+            </div>
+            <div class="certification-card">
+                <div class="icon-box">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Fortinet</h3>
+                <p>NSE 1,2,3</p>
+                <a href="docs/certifFortinet/" class="btn">Voir les certificats</a>
+            </div>
+            <div class="certification-card">
+                <div class="icon-box">
+                    <i class="fas fa-skull"></i>
+                </div>
+                <h3>Root-Me</h3>
+                <p>Challenges & CTF</p>
+                <a href="https://www.root-me.org/loansisr" target="_blank" class="btn">Voir le profil</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="section">
+        <h2>Mes Projets</h2>
+        <div class="nas-rack">
+            <div class="hard-drive" data-project="cisco">
+                <div class="drive-front">
+                    <div class="drive-led"></div>
+                    <span class="drive-label">Projet semestre 1  &#x25BC; </span>
+                    <button onclick="openModal('images/projet1.png')" class="drive-eyes" title="Visualiser le projet">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="drive-shell">
+                    <div class="terminal">
+                        <div class="terminal-line command">$ ssh root@WebNetwork</div>
+                        <div class="terminal-line output">> Objectifs :</div>
+                        <div class="terminal-line output indent">- 2 réseaux différents</div>
+                        <div class="terminal-line output indent">- 3 Vlans</div>
+                        <div class="terminal-line output indent">- Un réseau web complet: Serv WEB, DNS, RDP</div>
+                        <div class="terminal-line output indent">- Afficher le bon fonctionnement du site sur une télé</div>
+                        <div class="terminal-line output">> Machines montées et utilisées</div>
+                        <div class="terminal-line output indent">- Debian 12 virtuel : Serv WEB, RDP, DNS</div>
+                        <div class="terminal-line output indent">- Physique : Routeur Cisco, Axel, Switch Cisco</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hard-drive" data-project="cisco">
+                <div class="drive-front">
+                    <div class="drive-led"></div>
+                    <span class="drive-label">Projet semestre 2  &#x25BC;</span>
+                    <button onclick="openModal('images/projet2.png')" class="drive-eyes" title="Visualiser le projet">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="drive-shell">
+                    <div class="terminal">
+                        <div class="terminal-line command">$ ssh admin@Geltram</div>
+                        <div class="terminal-line output">> Objectifs :</div>
+                        <div class="terminal-line output indent">- 3 réseaux différents : LAN, WAN, DMZ</div>
+                        <div class="terminal-line output indent">- 5 Vlans</div>
+                        <div class="terminal-line output indent">- Réseau d'entreprise complet: AD, DHCP, DNS, FOG, GLPI, WSUS</div>
+                        <div class="terminal-line output indent">- Étanchéité totale des réseaux, sécurisation des entités</div>
+                        <div class="terminal-line output">> Machines montées et utilisées :</div>
+                        <div class="terminal-line output indent">- Virtuel : Windows Srv, Debian 12, Win 11</div>
+                        <div class="terminal-line output indent">- Physique : Routeur Cisco, Switch Cisco</div>
+                        <div class="terminal-line output">> Services montés et utilisés :</div>
+                        <div class="terminal-line output indent">- Apache2, MariaDB, AD, DNS, DHCP, GLPI, FOG, WSUS, Honey Pot</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hard-drive" data-project="cisco">
+                <div class="drive-front">
+                    <div class="drive-led"></div>
+                    <span class="drive-label">Projet semestre 3 &#x25BC;</span>
+                    <button onclick="openModal('images/projet3.png')" class="drive-eyes" title="Visualiser le projet">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="drive-shell">
+                    <div class="terminal">
+                        <div class="terminal-line command">$ ssh 4dm1n@sodecaf</div>
+                        <div class="terminal-line output">> Objectifs :</div>
+                        <div class="terminal-line output indent">- Élaborer un SI pour l'entreprise SODECAF</div>
+                        <div class="terminal-line output indent">- Segmenter chaque zone</div>
+                        <div class="terminal-line output indent">- Haute disponibilité des services</div>
+                        <div class="terminal-line output">> Services à monter :</div>
+                        <div class="terminal-line output indent">- ADx2, DCHPx2, DNSx2, SRVWEBx2, FW, GLPI, IPAM, BDDx2</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hard-drive" data-project="cisco">
+                <div class="drive-front">
+                    <div class="drive-led"></div>
+                    <span class="drive-label">Projet perso 1 en cours &#x25BC;</span>
+                    <button onclick="openModal('images/projet4.png')" class="drive-eyes" title="Visualiser le projet">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="drive-shell">
+                    <div class="terminal">
+                        <div class="terminal-line command">$ ssh user@home</div>
+                        <div class="terminal-line output">> Objectifs :</div>
+                        <div class="terminal-line output indent">- Élaborer un Homelab</div>
+                        <div class="terminal-line output indent">- Héberger plusieurs services</div>
+                        <div class="terminal-line output indent">- Monter un accès VPN</div>
+                        <div class="terminal-line output">> Services montés :</div>
+                        <div class="terminal-line output indent">- OPNsense</div>
+                        <div class="terminal-line output indent">- Serveur Samba</div>
+                        <div class="terminal-line output indent">- Serveur WireGuard</div>
+                        <div class="terminal-line output indent">- Serveur Nginx</div>
+                        <div class="terminal-line output indent">- Serveur paper.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="section">
+        <h2>Expériences Professionnelles</h2>
+        <div class="timeline">
+            <div class="timeline-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Alternant au Service IT</h3>
+                    <p class="date">Juillet 2025 - Juillet 2026</p>
+                    <p class="entreprise">Guingamp-Paimpol Agglomération</p>
+                    <ul>
+                        <li>Recensement des besoins en IA et charte IA.</li>
+                        <li>Support informatique N1/N2.</li>
+                        <li>Élaboration d'une infrastructure sandbox</li>
+                        <li>Missions diverses (Maintenance du parc informatique).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Stage Administrateur Réseaux</h3>
+                    <p class="date">Mai 2025 - Juin 2025</p>
+                    <p class="entreprise">CNRS - Roscoff</p>
+                    <ul>
+                        <li>Mise en place pare-feu (Fortigate 401f).</li>
+                        <li>Déploiement analyseur de logs (FortiAnalyzer).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3><i class="fas fa-address-card"></i> Coordonnées</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Côtes d'Armor, France</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="forms.html" class="doc-link">Formulaire de contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3><i class="fas fa-share-alt" aria-hidden="true"></i> Réseaux</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Loansisr" target="_blank" rel="noopener noreferrer" class="doc-link">
+                            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/loan-sisr-2bbb23383" target="_blank" rel="noopener noreferrer" class="doc-link">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3><i class="fas fa-download"></i> Documents</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-file-pdf"></i>
+                        <a onclick="openModal('docs/CV.pdf')" class="doc-link" title="Visualiser le CV">Mon CV <i class="fas fa-eye"></i></a>
+                    </li>
+                    <li>
+                        <i class="fas fa-table"></i>                        <a onclick="openModal('docs/TableauSynthese.pdf')" class="doc-link" title="Visualiser le CV">Tableau de Synthèse <i class="fas fa-eye"></i></a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="footer-col">
+                <h3><i class="fas fa-globe" aria-hidden="true"></i> Sites Web</h3>
+                <ul>
+                    <li>
+                        <a href="https://doc.loansisr.fr" target="_blank" rel="noopener noreferrer" class="doc-link">
+                            <i class="fas fa-globe" aria-hidden="true"></i> Mon wiki
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://veille.loansisr.fr" target="_blank" rel="noopener noreferrer" class="doc-link">
+                            <i class="fas fa-globe" aria-hidden="true"></i> Ma veille
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>
+                &copy; 2025 - Portfolio BTS SIO | Loan 
+                &nbsp;|&nbsp; 
+                <a href="mentions-legales.html" style="color: inherit; text-decoration: none;">Mentions Légales</a>
+            </p>
+        </div>
+    </footer> 
+
+    <div id="pdfModal" class="modal" aria-hidden="true" role="dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="btnNewTab" href="#" target="_blank" rel="noopener noreferrer" class="btn-action">
+                    <i class="fas fa-external-link-alt"></i> Ouvrir dans un nouvel onglet
+                </a>
+                <button class="close-btn" aria-label="Fermer la fenêtre">&times;</button>
+            </div>
+            
+            <div class="pdf-container">
+                <div id="loadingSpinner" class="spinner">
+                    <i class="fas fa-spinner fa-spin"></i> Chargement du document...
+                </div>
+                <iframe 
+                    id="pdfViewer" 
+                    title="Visionneuse de document"
+                    loading="lazy" 
+                    src="about:blank">
+                </iframe>
+            </div>
+        </div> 
+    </div> 
+    <script src="assets/script.js"></script>
+</body>
+</html>
