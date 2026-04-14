@@ -1,2 +1,2 @@
 # portfolio
-Mon Portefolio Statiques haute disponibilité
+Mon Portefolio Statique haute disponibilité
